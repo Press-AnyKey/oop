@@ -1,11 +1,13 @@
 package animals.classes;
 
-import animals.GiveBirth;
-import animals.classes.Animal;
+import animals.interfaces.GiveBirth;
 
-public class HigherBeasts extends Animal implements GiveBirth {
-    public HigherBeasts(String name) {
-        super(name);
+
+public class HeightBeast extends Animal implements GiveBirth {
+
+    @Override
+    public void doVoice() {
+        System.out.println("HeightBeast");
     }
 
     private String detachment; //отряд //заполнять должны сами

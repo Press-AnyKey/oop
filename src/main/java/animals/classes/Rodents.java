@@ -1,10 +1,8 @@
 package animals.classes;
 
-import animals.classes.HigherBeasts;
-
-class Rodents extends HigherBeasts { //грызуны
+class Rodents extends HeightBeast { //грызуны
     public Rodents(String name) {
-        super(name);
+
     }
 
     public int enlargedIncisors = 2;
